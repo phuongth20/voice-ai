@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+li.ant-menu-item.ant-menu-item-selected:active {
+  .ant-menu-title-content {
+    color: #002395 !important;
+  }
+
+}
+
+
+
+li .ant-table-thead .ant-table-cell {
+  background-color: #002395 !important;
+  color: white !important;
+}
+
+
+.ocr-lable {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form container */
+.ocr-modal {
+  padding: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+/* Title styling similar to the example */
+.ocr-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Row with border for each form item */
+.ocr-form-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+/* Input style like the job application form */
+.ocr-form-item input {
+  width: calc(100% - 45px); /* Adjust width based on the icon size */
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Custom icon with input */
+.input-icon {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.input-icon i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Upload section styled like the resume upload */
+.upload-section {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #d9d9d9;
+  background-color: #fafafa;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.upload-section i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.upload-section input {
+  border: none;
+  flex: 1;
+  outline: none;
+}
+
+/* Button styled like the "Submit" button in the image */
+.process-button {
+  display: block;
+  width: 100%;
+}
+
+.process-button button {
+  background-color:#002395;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center; 
+  width: 100%;
+}
+
+
+.process-button button:hover {
+  background-color: #92bdfd;
+}
+
+
+
+.add-btn button {
+  background-color:#002395 !important;
+  color: white;
+
+}
+
+
+.add-btn button:hover {
+  background-color: #92bdfd;
+}
