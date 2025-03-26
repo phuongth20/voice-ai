@@ -1,0 +1,406 @@
+.ant-layout-sider-children {
+  background: linear-gradient(175.81deg, #012396 0%, #277EEA 99.52%);
+}
+
+.titleTNB {
+  color: #fff;
+}
+
+.ant-menu {
+  background-color: #002395 ;
+}
+
+/* .ant-layout-header  {
+  background: linear-gradient(175.81deg, #012396 0%, #277EEA 99.52%) !important;
+} */
+
+
+/* .ant-btn {
+  color: #fff;
+} */
+.ant-menu-submenu-arrow {
+  color: #fff !important;
+}
+.ant-menu-title-content {
+  color: #fff;
+}
+.ant-menu-item-icon {
+  color: #fff !important;
+}
+
+.speech-sub-title  {
+  font-size: 14px;
+  color: #002395 !important;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  margin-right: 10px
+}
+
+.speech-intent {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.recommend {
+  display: flex;
+  justify-content: center;
+}
+
+.recommend-content {
+  margin-left: 6px;
+  border: 1px solid #d9d9d9;
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 10px;
+
+}
+
+.titel-content {
+  color: #002395 !important;
+
+}
+/* .confirmButton :hover {
+  background-color: #001c99;
+  color: #fff;
+} */
+
+
+/* SpeechToTextPage.css */
+
+/* Các nút điều khiển ghi âm */
+.record-button,
+.stop-button,
+.reset-button {
+background-color: #002395;
+color: #fff;
+border: none;
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover hiệu ứng cho nút ghi âm */
+.record-button:hover {
+background-color: #0041c2;
+transform: scale(1.05);
+}
+
+/* Hover hiệu ứng cho nút dừng ghi âm */
+.stop-button:hover {
+background-color: #e60050;
+transform: scale(1.05);
+}
+
+/* Hover hiệu ứng cho nút reset */
+.reset-button:hover {
+background-color: #ff4d4f;
+transform: scale(1.05);
+}
+
+/* Các nút Confirm và Cancel */
+.confirm-button {
+transition: background-color 0.3s ease, transform 0.3s ease;
+background-color: #002395;
+}
+.cancel-button {
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover hiệu ứng cho nút Confirm */
+.confirm-button:hover {
+background-color: #002395 !important;
+transform: scale(1.05);
+}
+
+/* Hover hiệu ứng cho nút Cancel */
+.cancel-button:hover {
+background-color: #ff4d4f;
+transform: scale(1.05);
+}
+
+.cancel-button {
+  background-color: #E62968 !important;
+  color: #fff !important;
+  border: none;
+}
+
+
+/* Styles cho transcript-text và ai-response-text */
+.ai-response-text {
+font-size: 13px;
+color: rgb(219, 211, 211);
+padding: 10px;
+border: 1px solid #d9d9d9;
+border-radius: 4px;
+min-height: 100px;
+background-color: #fff;
+overflow-y: auto;
+}
+
+/* Optional: Custom Scrollbar */
+.ai-response-text::-webkit-scrollbar {
+width: 8px;
+}
+
+.ai-response-text::-webkit-scrollbar-thumb {
+background-color: rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+
+.ai-response-text::-webkit-scrollbar-track {
+background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Styles cho Select Dropdown */
+.ant-select {
+width: 100%;
+}
+
+.ant-select-selection-placeholder {
+color: #a0a0a0;
+}
+
+.voice-reload {
+display: flex;
+justify-content: end;
+}
+
+
+/* Styles cho nút phát âm thanh phản hồi */
+button[title="Phát âm thanh phản hồi"] {
+margin-top: 5px;
+}
+
+
+.ant-steps-item-tail::after {
+height: 12px !important;
+}
+
+
+.sider-llm {
+background: #f1f1f1 !important;
+height: 80vh;
+}
+
+
+
+
+.btn-llm {
+cursor: pointer;
+color: #002395;
+margin-right: 10px;
+font-size: 25px;
+}
+
+.list-history {
+cursor: pointer;
+border-top: 1px solid;
+}
+
+.title-history {
+align-items: center;
+font-size: larger;
+font-weight: bold;
+display: flex;
+justify-content: space-between;
+margin-top: 5px;
+}.message-user {
+background-color: #002395;
+color: #fff;
+}
+
+.message-assistant {
+background-color: #f0f2f5;
+color: #000;
+}
+
+.message-content {
+white-space: pre-wrap;
+font-size: 14px;
+}
+
+.message-info {
+font-size: 12px;
+color: #555;
+margin-top: 4px;
+}
+
+.message-timestamp {
+font-size: 12px;
+color: #888;
+}
+
+.button-download {
+margin-top: 8px;
+}
+
+
+/* src/components/MessageList.module.css */
+
+.entity {
+border: 1px solid transparent;
+border-radius: 4px;
+padding: 2px 4px;
+margin-right: 4px;
+display: inline-block;
+}
+
+.entity-PERSON {
+border-color: #FFA500; /* Màu cam cho PERSON */
+background-color: #FFE5B4; /* Màu nền cam nhạt cho PERSON */
+color: #FF8C00; /* Màu chữ cam đậm cho PERSON */
+}
+
+.entity-ORGANIZATION {
+border-color: #32CD32; /* Màu xanh lá cây cho ORGANIZATION */
+background-color: #98FB98; /* Màu nền xanh lá cây nhạt cho ORGANIZATION */
+color: #006400; /* Màu chữ xanh đậm cho ORGANIZATION */
+}
+
+.entity-LOCATION {
+border-color: #1E90FF; /* Màu xanh dương cho LOCATION */
+background-color: #ADD8E6; /* Màu nền xanh dương nhạt cho LOCATION */
+color: #00008B; /* Màu chữ xanh dương đậm cho LOCATION */
+}
+
+.note {
+font-style: italic;
+color: #555555;
+margin-top: 8px;
+}
+
+
+
+
+.translate-page {
+  padding: 40px 20px;
+  /* max-width: 900px; */
+  margin: 0 auto;
+  /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
+}
+
+.lang-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.custom-select .ant-select-selector {
+  border-radius: 8px !important;
+  border: 1px solid #d9d9d9 !important;
+  transition: all 0.3s ease;
+}
+
+.custom-select .ant-select-selector:hover {
+  border-color: #1890ff !important;
+}
+
+.swap-btn {
+  border-radius: 8px !important;
+  border: 1px solid #d9d9d9 !important;
+  transition: all 0.3s ease;
+}
+
+.swap-btn:hover {
+  background: #1890ff !important;
+  color: #fff !important;
+  border-color: #1890ff !important;
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.text-card {
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.text-card:hover {
+  transform: translateY(-3px);
+}
+
+.text-card .ant-card-head {
+  background: #fafafa;
+  border-bottom: 1px solid #e8e8e8;
+  border-radius: 10px 10px 0 0;
+}
+
+.custom-textarea {
+  border-radius: 8px !important;
+  resize: none !important;
+  font-size: 16px !important;
+  padding: 10px !important;
+  transition: all 0.3s ease;
+}
+
+.custom-textarea:hover,
+.custom-textarea:focus {
+  border-color: #1890ff !important;
+  box-shadow: 0 0 5px rgba(24, 144, 255, 0.2) !important;
+}
+
+.output-textarea {
+  background: #f5f5f5 !important;
+  color: #555 !important;
+}
+
+.mic-btn {
+  border-radius: 8px !important;
+  transition: all 0.3s ease;
+}
+
+.mic-btn:hover {
+  background: #1890ff !important;
+  color: #fff !important;
+}
+
+.translate-btn {
+  border-radius: 8px !important;
+  transition: all 0.3s ease;
+}
+
+.translate-btn:hover {
+  background: #40a9ff !important;
+}
+
+.audio-player {
+  border-radius: 8px;
+}
+
+.footer-link {
+  color: #1890ff;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #40a9ff;
+}
+
+@media (max-width: 768px) {
+  .text-container {
+    flex-direction: column;
+  }
+
+  .lang-selector {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .swap-btn {
+    margin: 10px 0;
+  }
+}
